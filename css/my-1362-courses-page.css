@@ -1,0 +1,52 @@
+.head{
+    top: 0;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #C18D85;
+    border-radius: 10px;
+}
+
+.button1{
+    text-align: left;
+    background-color: #2D9596;
+    color: white;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+    border:none;
+    border-radius: 10%;
+}
+
+
+.one{
+    text-align: left;
+    background-color: #CDC6AE;
+    border-radius: 20px;
+    padding: 5px 5px 10px 5px;
+    margin: 5px;
+
+}
+.two{
+    text-align: left;
+    background-color: #CDC6AE;
+    border-radius: 20px;
+    padding: 2px 5px 10px 5px;
+    margin: 5px;
+}
+.three{
+    text-align: left;
+    background-color: #CDC6AE;
+    border-radius: 20px;
+    padding: 2px 5px 10px 5px;
+    margin: 5px;
+}
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    background-color: #C18D85;
+}
+
+
+
