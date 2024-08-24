@@ -20,16 +20,15 @@ function displayStats(arrayInput) {
         let number = parseInt(list[i]);
         sum += number;
     }*/ 
-    let minimum = (count>0) ? Math.min(...arrayInput) : 0;
-    let maximum = (count>0) ? Math.max(...arrayInput) : 0;
-    let avg = (count>0) ? sum / count : 0;
+    let minimum = Math.min(...arrayInput) ;
+    let maximum =  Math.max(...arrayInput) ;
+    let avg = sum / count;
 
-    if (count == 0) {
-        alert("For the list that is empty, the average is 0, the minimum is 0, and the maximum is 0");
-    }else{
-        alert('For the list ' + arrayInput + ' the Average is ' + avg.toFixed(2) +
+   (count == 0) ?
+         alert("For the list that is empty, the average is 0, the minimum is 0, and the maximum is 0")
+        :alert('For the list ' + arrayInput + ' the Average is ' + avg.toFixed(2) +
             ' , the minimum is ' + minimum + ' , the maximum is ' + maximum);
-    }
+    
 
     
     
